@@ -1,8 +1,5 @@
 import { ProjectCard } from '~/app/(main)/projects/ProjectCard'
 import { getSettings } from '~/sanity/queries'
-import apiImage from '~/assets/project/api.jpg'
-import biImage from '~/assets/project/bi.jpg'
-
 
 export async function Projects() {
   const projects = (await getSettings())?.projects || [];
