@@ -26,7 +26,7 @@ function Designer() {
         <span className="absolute -bottom-0.5 -left-0.5 h-1.5 w-1.5 border border-lime-700 bg-zinc-50 dark:border-lime-400" />
         <span className="absolute -right-0.5 -top-0.5 h-1.5 w-1.5 border border-lime-700 bg-zinc-50 dark:border-lime-400" />
       </span>
-      设计师
+      梦想家
     </span>
   )
 }
@@ -44,7 +44,7 @@ function Founder() {
   return (
     <span className="group">
       <UserSecurityIcon className="mr-1 inline-flex group-hover:fill-zinc-600/20 dark:group-hover:fill-zinc-200/20" />
-      <span>创始人</span>
+      <span>小清新</span>
     </span>
   )
 }
@@ -80,10 +80,9 @@ export function Headline() {
         }}
       >
         <Balancer>
-          我是 Cali，
-          <PeekabooLink href="https://zolplay.com">佐玩</PeekabooLink>
-          创始人，目前带领着佐玩致力于创造一个充满创造力的工作环境，同时鼓励团队创造影响世界的产品。
-          我热爱开发，设计，创新，享受生活，以及在未知领域中探索。
+          我是 Elle，
+          <PeekabooLink href="https://github.com/LiCharis">Github</PeekabooLink>
+          是一个开发者、梦想家、细节控、小清新，还依旧是一名学生，希望我的博客给大家带来更多的乐趣和收获。
         </Balancer>
       </motion.p>
       <motion.div
@@ -99,33 +98,18 @@ export function Headline() {
         }}
       >
         <SocialLink
-          href="https://cali.so/twitter"
-          aria-label="我的推特"
-          platform="twitter"
-        />
-        <SocialLink
-          href="https://cali.so/youtube"
-          aria-label="我的 YouTube"
-          platform="youtube"
-        />
-        <SocialLink
-          href="https://cali.so/bilibili"
-          aria-label="我的 Bilibili"
-          platform="bilibili"
-        />
-        <SocialLink
-          href="https://cali.so/github"
+          href="https://github.com/LiCharis"
           aria-label="我的 GitHub"
           platform="github"
         />
         <SocialLink
-          href="https://cali.so/tg"
-          aria-label="我的 Telegram"
-          platform="telegram"
+          href="https://space.bilibili.com/2020172609?spm_id_from=333.1007.0.0"
+          aria-label="我的 Bilibili"
+          platform="bilibili"
         />
         <SocialLink href="/feed.xml" platform="rss" aria-label="RSS 订阅" />
         <SocialLink
-          href="mailto:hi@cali.so"
+          href="mailto:jiayouali@gmail.com"
           aria-label="我的邮箱"
           platform="mail"
         />
