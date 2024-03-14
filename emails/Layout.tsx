@@ -44,10 +44,10 @@ export default function Layout({
               />
               <Text className="text-center">
                 <Link
-                  href="https://cali.so"
+                  href="https://blog.liproject.top"
                   className="text-zinc-700 underline"
                 >
-                  <strong>Elle</strong>
+                  <strong>Leon</strong>
                 </Link>
                 <br />
                 开发者、梦想家、细节控、小清新

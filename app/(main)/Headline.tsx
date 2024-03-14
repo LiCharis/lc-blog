@@ -80,7 +80,7 @@ export function Headline() {
         }}
       >
         <Balancer>
-          我是 Elle，
+          我是 Leon，
           <PeekabooLink href="https://github.com/LiCharis">Github</PeekabooLink>
           是一个开发者、梦想家、细节控、小清新，还依旧是一名学生，希望我的博客给大家带来更多的乐趣和收获。
         </Balancer>

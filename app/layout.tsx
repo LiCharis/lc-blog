@@ -14,11 +14,11 @@ import { seo } from '~/lib/seo'
 export const metadata: Metadata = {
   metadataBase: seo.url,
   title: {
-    template: '%s | Elle',
+    template: '%s | Leon',
     default: seo.title,
   },
   description: seo.description,
-  keywords: 'CL,黎海旭,学生,后端开发,细节控,创新,一根筋',
+  keywords: 'Leon,黎海旭,学生,后端开发,细节控,创新,一根筋',
   themeColor: [
     { media: '(prefers-color-scheme: dark)', color: '#000212' },
     { media: '(prefers-color-scheme: light)', color: '#fafafa' },
@@ -38,17 +38,17 @@ export const metadata: Metadata = {
   openGraph: {
     title: {
       default: seo.title,
-      template: '%s | CL',
+      template: '%s | Leon',
     },
     description: seo.description,
     siteName: 'CL',
     locale: 'zh_CN',
     type: 'website',
-    url: 'https://cali.so',
+    url: 'https://blog.liproject.top',
   },
   twitter: {
-    site: '@thecalicastle',
-    creator: '@thecalicastle',
+    site: '@Leon',
+    creator: '@Leon',
     card: 'summary_large_image',
     title: seo.title,
     description: seo.description,
